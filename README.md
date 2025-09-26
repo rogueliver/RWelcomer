@@ -51,31 +51,24 @@ The plugin creates a [`config.yml`](src/main/resources/config.yml) file with the
 
 
 ```yaml
-
 welcome:
-
-&nbsp; enabled: true
-
-&nbsp; message: "\&a\&lWelcome \&f{player} \&a\&lto the server!"
-
-&nbsp; broadcast: true
-
-
+  enabled: true
+  message: "&a&lWelcome &f{player} &a&lto the server!"
+  broadcast: true
 
 greetings:
+  enabled: true
+  reward-amount: 5000
+  max-rewarded-players: 3
+  reward-message: "&a&l+${amount} &ffor welcoming &a{target}!"
+  already-rewarded-message: "&cYou have already been rewarded for welcoming someone!"
+  max-rewards-reached-message: "&cThe maximum number of welcome rewards has been reached!"
 
-&nbsp; enabled: true
-
-&nbsp; reward-amount: 5000
-
-&nbsp; max-rewarded-players: 3
-
-&nbsp; reward-message: "\&a\&l+${amount} \&ffor welcoming \&a{target}!"
-
-&nbsp; already-rewarded-message: "\&cYou have already been rewarded for welcoming someone!"
-
-&nbsp; max-rewards-reached-message: "\&cThe maximum number of welcome rewards has been reached!"
-
+messages:
+  config-reloaded: "&aConfiguration reloaded!"
+  invalid-setting: "&cInvalid setting! Available: welcome-message, reward-amount, max-rewarded-players"
+  setting-updated: "&aSetting &f{setting} &aupdated to &f{value}"
+  no-permission: "&cYou don't have permission to use this command!"
 ```
 
 
