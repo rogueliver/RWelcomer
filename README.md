@@ -22,7 +22,7 @@ A Minecraft plugin that welcomes new players and rewards those who greet them.
 
 ## Installation
 
-1. Download the plugin JAR file from \[releases](https://github.com/rogueliver/rwelcomer/releases) (or build it yourself)
+1. Download the plugin JAR file from [releases](https://github.com/rogueliver/rwelcomer/releases) (or build it yourself)
 2. Place the JAR file in your server's `plugins` folder
 3. Ensure Vault and an economy plugin are installed
 4. Restart your server
