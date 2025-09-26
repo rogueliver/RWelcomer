@@ -1,0 +1,19 @@
+name: RWelcomer
+version: 1.0.0
+main: me.rogueliver.rwelcomer.RWelcomer
+api-version: 1.21
+authors: [ RL ]
+description: Welcome new players and reward those who greet them
+depend: [Vault]
+
+commands:
+  rwelcomer:
+    description: Configure RWelcomer settings
+    usage: /rwelcomer <setting> [value]
+    permission: rwelcomer.admin
+    aliases: [rw]
+
+permissions:
+  rwelcomer.admin:
+    description: Access to configure RWelcomer
+    default: op
